@@ -1901,7 +1901,7 @@ re_match (pbufp, string, size, pos, regs)
      int size, pos;
      struct re_registers *regs;
 {
-  return re_match_2 (pbufp, (char *) 0, 0, string, size, pos, regs, size); 
+  return re_match_2 (pbufp, (char *) 0, 0, string, size, pos, regs); 
 }
 
 

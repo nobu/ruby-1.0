@@ -1,3 +1,12 @@
+Thu Mar 16 11:32:57 1995  Yukihiro Matsumoto  (matz@ix-02)
+
+	* version 0.70
+
+	* eval.c,regex.c: gccでのコンパイルエラー．
+
+	* io.c: inplace-editで拡張子が指定されない場合，もとのファイルを削
+	  除する．
+
 Wed Mar 15 14:59:18 1995  Yukihiro Matsumoto  (matz@ix-02)
 
 	* version 0.69

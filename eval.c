@@ -1266,7 +1266,7 @@ rb_eval(node)
 		    while (TYPE(tmp) == T_ICLASS) {
 			tmp = RCLASS(tmp)->super;
 		    }
-		    if (tmp != super)
+		    if (tmp != RCLASS(super))
 			Fail("%s's superclass differs",
 			     rb_id2name(node->nd_cname));
 		}
